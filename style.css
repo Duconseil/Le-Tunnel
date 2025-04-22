@@ -45,7 +45,7 @@
 }
 
 /* Media queries pour différentes tailles d'écran */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .acceuil_container {
     padding-top: 80px;
   }
@@ -59,9 +59,9 @@
   }
 
   .description{
-    padding: 5px;
-    transform: translateY(-300px);
-
+    padding: 0px !important;
+    margin: 0px 100px;
+    transform: translateY(-250px);
   }
 
 }
