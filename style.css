@@ -10,6 +10,17 @@
   margin-bottom: 100px;
 }
 
+.logo{
+  margin-top: 100px;
+}
+
+.description{
+
+  margin: 100px;
+  padding: 120px 140px 80px 140px;
+  transform: translateY(-250px);
+}
+
 .creative_production {
   max-width: 100%;
   height: auto;
@@ -34,7 +45,7 @@
 }
 
 /* Media queries pour différentes tailles d'écran */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .acceuil_container {
     padding-top: 80px;
   }
@@ -42,6 +53,15 @@
   .trois-images {
     margin-top: -20px;
   }
+
+  h2{
+    font-size: 20px !important;
+  }
+
+  .description{
+    padding: 5px;
+  }
+
 }
 
 @media (max-width: 676px) {
@@ -56,6 +76,15 @@
   .trois-images {
     margin-top: 50px;
   }
+
+  h2{
+    font-size: 18px !important;
+  }
+
+  .description{
+    padding: 5px;
+  }
+
 }
 
 
@@ -100,6 +129,10 @@ h1, h4{
 }
 
 h1 {
+  font-size: 30px;
+}
+
+h2 {
   font-size: 30px;
 }
 
