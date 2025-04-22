@@ -18,6 +18,8 @@
   display: block; /* Meilleur pour le centrage */
   margin-left: auto;
   margin-right: auto;
+  transform: translateY(-100px);
+
 }
 
 .trois-images {
@@ -28,6 +30,7 @@
   display: block; /* Meilleur pour le centrage */
   margin-left: auto;
   margin-right: auto;
+  transform: translateY(-200px);
 }
 
 /* Media queries pour différentes tailles d'écran */
@@ -41,9 +44,9 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 676px) {
   .acceuil_container {
-    padding-top: 70px;
+    padding-top: 170px;
   }
 
   .creative_production {
@@ -51,7 +54,7 @@
   }
 
   .trois-images {
-    margin-top: 0;
+    margin-top: 50px;
   }
 }
 
@@ -191,4 +194,10 @@ li {
 
 h5 {
   margin-bottom: 0px;
+}
+
+
+.bas-de-page{
+  display: flex;
+  justify-content: flex-end; /* Aligne les éléments à droite */
 }
